@@ -3,3 +3,12 @@ The Kalman filter is an algorithm that uses noisy observations of a system over 
 the parameters of the system (some of which are unobservable) and predict future observations. 
 At each time step, it makes a prediction, takes in a measurement, and updates itself based 
 on how the prediction and measurement compare.
+
+The algorithm is as follows:
+1.	Take as input a mathematical model of the system, i.e.
+•	the transition matrix, which tells us how the system evolves from one state to another. 
+For instance, if we are modeling the movement of a car, then the next values of position
+and velocity can be computed from the previous ones using kinematic equations. 
+Alternatively, if we have a system which is fairly stable, we might model its 
+evolution as a random walk. If you want to read up on Kalman filters, note that 
+this matrix is usually called.
