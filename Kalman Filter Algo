@@ -1,0 +1,5 @@
+What is a Kalman Filter?
+The Kalman filter is an algorithm that uses noisy observations of a system over time to estimate 
+the parameters of the system (some of which are unobservable) and predict future observations. 
+At each time step, it makes a prediction, takes in a measurement, and updates itself based 
+on how the prediction and measurement compare.
