@@ -20,13 +20,7 @@ consider estimating a linear regression model for the data. Then our state is th
 coefficients of the model, and we can predict the next measurement 
 from the linear equation. This is denoted H
 
-•	any control factors that affect the state transitions but are not part of the measurements. 
-For instance, if our car were falling, gravity would be a control factor. If the noise does 
-not have mean 0, it should be shifted over and the offset put into the control factors. 
-The control factors are summarized in a matrix B with time-varying 
-control vector u_t, which give the offset Bu_t.
-•	covariance matrices of the transition noise (i.e. noise in the evolution
-of the system) and measurement noise, denoted Q and R, respectively.
+
 
 
 2.	Take as input an initial estimate of the state of the system and the error of the estimate, mu_0 and sigma_0.
