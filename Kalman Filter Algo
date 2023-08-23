@@ -13,12 +13,7 @@ Alternatively, if we have a system which is fairly stable, we might model its
 evolution as a random walk. If you want to read up on Kalman filters, note that 
 this matrix is usually called A. 
 
-•	the observation matrix, which tells us the next measurement we should expect 
-given the predicted next state. If we are measuring the position of the car,
-we just extract the position values stored in the state. For a more complex example, 
-consider estimating a linear regression model for the data. Then our state is the 
-coefficients of the model, and we can predict the next measurement 
-from the linear equation. This is denoted H
+
 
 •	any control factors that affect the state transitions but are not part of the measurements. 
 For instance, if our car were falling, gravity would be a control factor. If the noise does 
